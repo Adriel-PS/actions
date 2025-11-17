@@ -28,10 +28,11 @@ function raizQuadrada(a){
     }
 }
 
-module.exports = soma;
-module.exports = divisao;
-module.exports = multiplicacao;
-module.exports = subtracao;
-module.exports = potencia;
-module.exports = raizQuadrada;
-    
+module.exports = {
+    soma,
+    divisao,
+    multiplicacao,
+    subtracao,
+    potencia,
+    raizQuadrada
+};
